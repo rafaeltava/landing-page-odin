@@ -1,3 +1,11 @@
+:root{
+    --primary-color:#0AB2FF;
+    --primary-color:white;
+    --gap:3rem;
+
+
+}
+
 *{
     margin:0;
     padding: 0;
@@ -15,7 +23,8 @@ html {
 body {
 
     font-family:'Open Sans', sans-serif ;
-    font-size: 1.6rem;
+    font-size: 2rem;
+    color: var(--primary-color);
     
 }
 
@@ -53,9 +62,15 @@ h6{
     background-image: url('../img/flat-mountains.svg');
     background-size: cover;
     background-position: center center;
+    color: var(--);
 }
 
 .main-content{
     max-width: 1200px;
     margin: 0 auto;
+    padding: var(--gap)
+}
+
+.section{
+    min-height: ;
 }
