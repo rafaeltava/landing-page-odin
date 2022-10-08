@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,700;1,300&display=swap');
+
+
 :root{
     --primary-color:#0AB2FF;
-    --primary-color:white;
+    --white-color: #ffffff;
     --gap:3rem;
 
 
@@ -11,66 +14,58 @@
     padding: 0;
 
 }
-
-
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;*/
-html {
-    font-size: 62.5%;
+body{
+    font-family:'Source Sans Pro' ;
 }
 
+.first-section{
+    background-color:#1f2937;
 
-body {
+}
 
-    font-family:'Open Sans', sans-serif ;
-    font-size: 2rem;
-    color: var(--primary-color);
+#header-logo{
+    font-size: 24px;
+    color:#f9faf8;
+}
+
+.header-link{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px;
+}
+    .navbar{
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar-left,.navbar-right{
+        display:flex;
+        width:50%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .awesome{
+        color: var(--white-color);
+        font-size: 48px ;
+        font-weight: bolder;
+    }
     
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-family:'Montserrat', sans-serif; 
-
-}
-h1 {
-    font-size: 6rem;
-    text-transform: uppercase;
-
-}
-
-h2 {
-    font-size: 5rem;
-}
-h3 {  
-
-  font-size: 4rem;  
-}
-
-h4{
-    font-size: 3rem;
-}
-
-h5{
-    font-size: 2rem;
-}
-
-h6{
-    font-size: 1.5rem;
-}
-
-.main-bg{
-    background-image: url('../img/flat-mountains.svg');
-    background-size: cover;
-    background-position: center center;
-    color: var(--);
-}
-
-.main-content{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: var(--gap)
-}
-
-.section{
-    min-height: ;
-}
+    .content{
+        display: flex;
+        flex-direction: row;
+        margin: 50px;
+    }
+    .content-left,.content-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+    }
