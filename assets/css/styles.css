@@ -88,10 +88,10 @@ body{
         color:#ffffff;
         font-family:Arial;
         font-size:19px;
-        padding:12px 51px;
+        width: 100px;
+        height: 40px;
         
-        text-decoration:none;
-        text-shadow:0px 1px 0px #283966; 
+       
         background-color: #3882f6; 
     }
 
@@ -105,10 +105,49 @@ body{
         margin-left: 90px;
     }
 
-    .second-section{
+    
+        
+      h2{
+        font-size: 36px;
+        font-weight: bolder;
+        color:  #1f2937;
+        text-align: center;
+
+      } 
+
+      .row-of-blue-divs{
+        display: flex;
+      justify-content: center;
+      
+      margin: 100px;
+      
+      gap: 40px;
+      
         
        
-        }
+      }
+        
+      
+
+      .box-blue{
+        width: 200px; 
+        height: 200px;
+        border: solid #3882f6 2px;
+        background-color: #ffffff;
+        border-radius: 5px;
+       
+
+      }
+.second-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.p-second{
+    text-align: center ;
+    font-size: 18px;
+}
 
 
 
